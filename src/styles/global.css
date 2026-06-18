@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* ── Reset ────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0A0A0A;
+  color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0A0A0A; }
+::-webkit-scrollbar-thumb { background: #C9A84C; border-radius: 2px; }
+
+/* ── Animations ───────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+@keyframes rotateSlow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50%       { opacity: 0.8; transform: scale(1.05); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+
+/* ── Fade-up Utilities ────────────────────── */
+.fade-up    { animation: fadeUp 0.8s ease forwards; }
+.fade-up-d1 { animation: fadeUp 0.8s 0.1s ease forwards; opacity: 0; }
+.fade-up-d2 { animation: fadeUp 0.8s 0.2s ease forwards; opacity: 0; }
+.fade-up-d3 { animation: fadeUp 0.8s 0.3s ease forwards; opacity: 0; }
+.fade-up-d4 { animation: fadeUp 0.8s 0.4s ease forwards; opacity: 0; }
+
+/* ── Gold Text ────────────────────────────── */
+.gold-text {
+  background: linear-gradient(135deg, #A07830 0%, #E8C97A 50%, #A07830 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* ── Section Divider ──────────────────────── */
+.section-divider {
+  position: absolute;
+  top: 0; left: 5%; right: 5%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #C9A84C, transparent);
+}
+
+/* ── Responsive ───────────────────────────── */
+@media (max-width: 768px) {
+  .desktop-nav       { display: none !important; }
+  .mobile-menu-btn   { display: flex !important; }
+  .mobile-menu       { display: flex !important; }
+  .hero-btns         { flex-direction: column !important; }
+  .steps-grid        { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .cta-banner        { flex-direction: column !important; text-align: center; }
+  .footer-inner      { flex-direction: column !important; align-items: center; text-align: center; gap: 20px !important; }
+}
+
+@media (min-width: 769px) {
+  .mobile-menu-btn { display: none !important; }
+  .mobile-menu     { display: none !important; }
+}
