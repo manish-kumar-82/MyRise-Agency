@@ -12,7 +12,7 @@ export const COLORS = {
 };
 
 // ─── Navigation ─────────────────────────────────────────────────
-export const NAV_ITEMS = ["Home", "Services", "About", "Results", "Contact"];
+export const NAV_ITEMS = ["Home", "Services", "About", "Results", "Contact", "Blog"];
 
 // ─── WhatsApp & Email ────────────────────────────────────────────
 export const CONTACT = {
