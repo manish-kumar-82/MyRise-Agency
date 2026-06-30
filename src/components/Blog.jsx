@@ -8,7 +8,7 @@ export default function Blog({ onSelectPost }) {
     <section id="blog" style={{ padding: "120px 5%", background: COLORS.dark, position: "relative" }}>
       <div className="section-divider" />
       <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-        <SectionHeader label="Insights" titleLine1="Flipkart Growth " titleLine2="Resources" />
+        <SectionHeader label="Insights" titleLine1="Amazon, Flipkart, Myntra & Meesho Growth " titleLine2="Resources" />
 
         <div style={{ display: "grid", gap: "20px" }}>
           {BLOG_POSTS.map(post => (

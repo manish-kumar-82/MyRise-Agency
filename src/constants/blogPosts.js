@@ -1,13 +1,13 @@
 // constants/blogPosts.js
 export const BLOG_POSTS = [{
-    slug: "best-flipkart-review-growth-agency",
-    title: "Best Flipkart Review Growth Agency for Brands in India",
+    slug: "best-marketplace-review-growth-agency",
+    title: "Best Amazon, Flipkart, Myntra & Meesho Review Growth Agency for Brands in India",
     excerpt:
         "Looking for a trusted review growth partner? Learn what makes a review growth agency reliable and how it helps brands grow faster.",
     date: "July 2026",
     readTime: "6 min read",
     content: `
-Finding the right Flipkart review growth agency is one of the most important decisions for growing your brand.
+Finding the right Amazon, Flipkart, Myntra & Meesho review growth agency is one of the most important decisions for growing your brand.
 
 ## What Does a Review Growth Agency Do?
 
@@ -30,14 +30,14 @@ Partnering with the right agency can accelerate your marketplace growth.
 `,
 },
 {
-    slug: "flipkart-listing-optimization",
-    title: "Flipkart Listing Optimization Guide for Better Rankings",
+    slug: "marketplace-listing-optimization",
+    title: "Amazon, Flipkart, Myntra & Meesho Listing Optimization Guide for Better Rankings",
     excerpt:
-        "Learn how optimized listings improve product visibility and increase sales on Flipkart.",
+        "Learn how optimized listings improve product visibility and increase sales on Amazon, Flipkart, Myntra & Meesho.",
     date: "July 2026",
     readTime: "7 min read",
     content: `
-A well-optimized listing performs better in Flipkart search.
+A well-optimized listing performs better in Amazon, Flipkart, Myntra & Meesho search.
 
 ## Optimize Your Title
 
@@ -64,7 +64,7 @@ Listing optimization and review growth together create long-term success.
     slug: "marketplace-review-growth",
     title: "Marketplace Review Growth Strategies for Ecommerce Brands",
     excerpt:
-        "Discover how brands grow on Flipkart, Amazon and other marketplaces using review strategies.",
+        "Discover how brands grow on Amazon, Flipkart, Myntra & Meesho and other marketplaces using review strategies.",
     date: "July 2026",
     readTime: "6 min read",
     content: `
@@ -114,7 +114,7 @@ SEO combined with strong customer experience drives long-term sales.
     slug: "new-brand-marketplace-growth",
     title: "How New Brands Can Grow Faster on Online Marketplaces",
     excerpt:
-        "Practical strategies for new ecommerce brands launching on Flipkart and other marketplaces.",
+        "Practical strategies for new ecommerce brands launching on Amazon, Flipkart, Myntra & Meesho and other marketplaces.",
     date: "July 2026",
     readTime: "5 min read",
     content: `

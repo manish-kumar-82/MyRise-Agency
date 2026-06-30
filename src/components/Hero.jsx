@@ -1,6 +1,6 @@
 // components/Hero.jsx
 import GoldText from "./GoldText";
-import { COLORS, TRUST_BADGES } from "../constants";
+import { COLORS, TRUST_BADGES, PLATFORMS } from "../constants";
 
 export default function Hero() {
   return (
@@ -91,100 +91,111 @@ export default function Hero() {
           marginBottom: "28px",
         }}>
           Grow Your<br />
-          <GoldText>Flipkart Brand</GoldText><br />
-          With Confidence
+          <GoldText>E-commerce Brand</GoldText><br />
+          Across Every Platform
         </h1>
+          {/* Subtitle */}
+          <p className="fade-up-d2" style={{
+            fontSize: "15px",
+            lineHeight: 1.85,
+            color: COLORS.gray,
+            fontWeight: 300,
+            maxWidth: "520px",
+            marginBottom: "48px",
+            letterSpacing: "0.02em",
+          }}>
+            We connect brands with genuine buyers who purchase your products
+            and share real, honest reviews — boosting your ratings, visibility,
+            and organic sales across Amazon, Flipkart, Myntra, and Meesho.
+          </p>
 
-        {/* Subtitle */}
-        <p className="fade-up-d2" style={{
-          fontSize: "15px",
-          lineHeight: 1.85,
-          color: COLORS.gray,
-          fontWeight: 300,
-          maxWidth: "520px",
-          marginBottom: "48px",
-          letterSpacing: "0.02em",
-        }}>
-          We connect brands with genuine buyers who purchase your products
-          and share real, honest reviews — boosting your ratings, visibility,
-          and organic sales on Flipkart.
-        </p>
+          {/* CTAs */}
+          <div className="hero-btns fade-up-d3" style={{
+            display: "flex",
+            gap: "16px",
+            flexWrap: "wrap",
+            alignItems: "center",
+          }}>
+            <a href="#contact" style={{
+              background: `linear-gradient(135deg, ${COLORS.goldDark} 0%, ${COLORS.goldLight} 100%)`,
+              color: COLORS.black,
+              padding: "15px 36px",
+              fontSize: "12px",
+              fontWeight: 600,
+              letterSpacing: "0.15em",
+              textTransform: "uppercase",
+              textDecoration: "none",
+              borderRadius: "2px",
+              boxShadow: `0 8px 30px rgba(201,168,76,0.28)`,
+              transition: "transform 0.3s, box-shadow 0.3s",
+              display: "inline-block",
+            }}
+              onMouseEnter={e => {
+                e.target.style.transform = "translateY(-2px)";
+                e.target.style.boxShadow = "0 14px 40px rgba(201,168,76,0.42)";
+              }}
+              onMouseLeave={e => {
+                e.target.style.transform = "translateY(0)";
+                e.target.style.boxShadow = "0 8px 30px rgba(201,168,76,0.28)";
+              }}
+            >
+              Start Growing →
+            </a>
 
-        {/* CTAs */}
-        <div className="hero-btns fade-up-d3" style={{
-          display: "flex",
-          gap: "16px",
-          flexWrap: "wrap",
-          alignItems: "center",
-        }}>
-          <a href="#contact" style={{
-            background: `linear-gradient(135deg, ${COLORS.goldDark} 0%, ${COLORS.goldLight} 100%)`,
-            color: COLORS.black,
-            padding: "15px 36px",
-            fontSize: "12px",
-            fontWeight: 600,
-            letterSpacing: "0.15em",
-            textTransform: "uppercase",
-            textDecoration: "none",
-            borderRadius: "2px",
-            boxShadow: `0 8px 30px rgba(201,168,76,0.28)`,
-            transition: "transform 0.3s, box-shadow 0.3s",
-            display: "inline-block",
-          }}
-            onMouseEnter={e => {
-              e.target.style.transform = "translateY(-2px)";
-              e.target.style.boxShadow = "0 14px 40px rgba(201,168,76,0.42)";
+            <a href="#services" style={{
+              color: COLORS.gold,
+              padding: "15px 36px",
+              fontSize: "12px",
+              fontWeight: 500,
+              letterSpacing: "0.15em",
+              textTransform: "uppercase",
+              textDecoration: "none",
+              border: `1px solid rgba(201,168,76,0.3)`,
+              borderRadius: "2px",
+              transition: "all 0.3s",
+              display: "inline-block",
             }}
-            onMouseLeave={e => {
-              e.target.style.transform = "translateY(0)";
-              e.target.style.boxShadow = "0 8px 30px rgba(201,168,76,0.28)";
-            }}
-          >
-            Start Growing →
-          </a>
+              onMouseEnter={e => {
+                e.currentTarget.style.background = "rgba(201,168,76,0.08)";
+                e.currentTarget.style.borderColor = COLORS.gold;
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.background = "transparent";
+                e.currentTarget.style.borderColor = "rgba(201,168,76,0.3)";
+              }}
+            >
+              Our Services
+            </a>
+          </div>
 
-          <a href="#services" style={{
-            color: COLORS.gold,
-            padding: "15px 36px",
-            fontSize: "12px",
-            fontWeight: 500,
-            letterSpacing: "0.15em",
-            textTransform: "uppercase",
-            textDecoration: "none",
-            border: `1px solid rgba(201,168,76,0.3)`,
-            borderRadius: "2px",
-            transition: "all 0.3s",
-            display: "inline-block",
-          }}
-            onMouseEnter={e => {
-              e.currentTarget.style.background = "rgba(201,168,76,0.08)";
-              e.currentTarget.style.borderColor = COLORS.gold;
-            }}
-            onMouseLeave={e => {
-              e.currentTarget.style.background = "transparent";
-              e.currentTarget.style.borderColor = "rgba(201,168,76,0.3)";
-            }}
-          >
-            Our Services
-          </a>
-        </div>
+          {/* Trust Badges */}
+          <div className="hero-badges fade-up-d4" style={{
+            display: "flex",
+            gap: "28px",
+            marginTop: "64px",
+            paddingTop: "40px",
+            borderTop: "1px solid rgba(255,255,255,0.06)",
+            flexWrap: "wrap",
+          }}>
+            {TRUST_BADGES.map(label => (
+              <div key={label} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                <span style={{ color: COLORS.gold, fontSize: "14px", fontWeight: 700 }}>✓</span>
+                <span style={{ fontSize: "12px", color: COLORS.gray, letterSpacing: "0.05em" }}>{label}</span>
+              </div>
+            ))}
+          </div>
 
-        {/* Trust Badges */}
-        <div className="hero-badges fade-up-d4" style={{
-          display: "flex",
-          gap: "28px",
-          marginTop: "64px",
-          paddingTop: "40px",
-          borderTop: "1px solid rgba(255,255,255,0.06)",
-          flexWrap: "wrap",
-        }}>
-          {TRUST_BADGES.map(label => (
-            <div key={label} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-              <span style={{ color: COLORS.gold, fontSize: "14px", fontWeight: 700 }}>✓</span>
-              <span style={{ fontSize: "12px", color: COLORS.gray, letterSpacing: "0.05em" }}>{label}</span>
-            </div>
-          ))}
-        </div>
+          {/* Platform badges */}
+          <div style={{ display: "flex", gap: "16px", marginTop: "28px", flexWrap: "wrap", alignItems: "center" }}>
+            <span style={{ fontSize: "11px", color: COLORS.gray, letterSpacing: "0.1em" }}>WE WORK ACROSS:</span>
+            {PLATFORMS.map(p => (
+              <span key={p} style={{
+                fontSize: "12px", color: COLORS.goldLight, fontWeight: 500,
+                border: `1px solid rgba(201,168,76,0.25)`, padding: "4px 12px",
+                borderRadius: "2px", letterSpacing: "0.03em",
+              }}>{p}</span>
+            ))}
+          </div>
       </div>
     </section>
   );

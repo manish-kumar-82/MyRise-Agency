@@ -36,7 +36,7 @@ export const SERVICES = [
   {
     icon: "◈",
     title: "Listing Visibility",
-    desc: "Higher reviews and ratings push your products up in Flipkart search results — driving more organic traffic and conversions.",
+    desc: "Higher reviews and ratings push your products up in Amazon, Flipkart, Myntra & Meesho search results — driving more organic traffic and conversions.",
   },
   {
     icon: "◎",
@@ -55,7 +55,7 @@ export const STEPS = [
   {
     num: "01",
     title: "You Reach Out",
-    desc: "Contact us with your Flipkart product details and target review count.",
+    desc: "Contact us with your Amazon, Flipkart, Myntra & Meesho product details and target review count.",
   },
   {
     num: "02",
@@ -65,7 +65,7 @@ export const STEPS = [
   {
     num: "03",
     title: "Buyers Purchase",
-    desc: "Our verified buyer network genuinely purchases your product on Flipkart.",
+    desc: "Our verified buyer network genuinely purchases your product on Amazon, Flipkart, Myntra & Meesho.",
   },
   {
     num: "04",
@@ -84,7 +84,7 @@ export const REASONS = [
   {
     icon: "◎",
     title: "Platform Safe",
-    desc: "Our entire process operates within Flipkart's guidelines. Your seller account stays fully protected.",
+    desc: "Our entire process operates within Amazon, Flipkart, Myntra & Meesho guidelines. Your seller account stays fully protected.",
   },
   {
     icon: "▲",
@@ -101,7 +101,9 @@ export const REASONS = [
 // ─── Trust Badges ────────────────────────────────────────────────
 export const TRUST_BADGES = [
   "Genuine Buyers Only",
-  "Flipkart Guidelines Safe",
+  "Amazon, Flipkart, Myntra & Meesho Guidelines Safe",
   "Transparent Process",
   "Real Results",
 ];
+// ─── Supported Platforms ─────────────────────────────────────────
+export const PLATFORMS = ["Amazon", "Flipkart", "Myntra", "Meesho"];

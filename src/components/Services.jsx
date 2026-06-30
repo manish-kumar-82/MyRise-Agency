@@ -13,7 +13,7 @@ export default function Services() {
       <div className="section-divider" />
 
       <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-        <SectionHeader label="What We Do" titleLine1="Services Built for" titleLine2="Flipkart Growth" />
+        <SectionHeader label="What We Do" titleLine1="Services Built for" titleLine2="Amazon, Flipkart, Myntra & Meesho Growth" />
 
         <div style={{
           display: "grid",

@@ -31,17 +31,17 @@ export default function App() {
     <>
       <Helmet>
         <title>
-          MyRise Agency | Review Growth Services for Flipkart Sellers
+          MyRise Agency | Review Growth Services for Amazon, Flipkart, Myntra & Meesho Sellers
         </title>
 
         <meta
           name="description"
-          content="MyRise Agency helps Flipkart sellers increase ratings, reviews and visibility through genuine buyers."
+          content="MyRise Agency helps Amazon, Flipkart, Myntra & Meesho sellers increase ratings, reviews and visibility through genuine buyers."
         />
 
         <meta
           name="keywords"
-          content="Flipkart review growth, Flipkart sellers, review services, eCommerce growth"
+          content="Amazon, Flipkart, Myntra & Meesho review growth, Amazon, Flipkart, Myntra & Meesho sellers, review services, eCommerce growth"
         />
       </Helmet>
 

@@ -20,7 +20,7 @@ export default function Results() {
             Cosmetics Brand
           </div>
           <p style={{ fontSize: "16px", lineHeight: 1.9, color: COLORS.white, maxWidth: "600px", margin: "0 auto 24px", fontWeight: 300 }}>
-            We helped a cosmetics brand on Flipkart improve their <GoldText>product reviews</GoldText> and overall <GoldText>listing visibility</GoldText> through our genuine buyer network — resulting in noticeably higher engagement and trust on their listing.
+            We helped a cosmetics brand on Amazon, Flipkart, Myntra & Meesho improve their <GoldText>product reviews</GoldText> and overall <GoldText>listing visibility</GoldText> through our genuine buyer network — resulting in noticeably higher engagement and trust on their listing.
           </p>
           <div style={{ display: "flex", justifyContent: "center", gap: "32px", flexWrap: "wrap", marginTop: "32px" }}>
             <Stat label="Reviews" value="Improved" />
