@@ -29,21 +29,77 @@ export default function App() {
 
   return (
     <>
-      <Helmet>
-        <title>
-          MyRise Agency | Review Growth Services for Amazon, Flipkart, Myntra & Meesho Sellers
-        </title>
+   <Helmet>
 
-        <meta
-          name="description"
-          content="MyRise Agency helps Amazon, Flipkart, Myntra & Meesho sellers increase ratings, reviews and visibility through genuine buyers."
-        />
+<title>
+MyRise Agency | Marketplace Review Growth Services for Amazon, Flipkart, Myntra & Meesho
+</title>
 
-        <meta
-          name="keywords"
-          content="Amazon, Flipkart, Myntra & Meesho review growth, Amazon, Flipkart, Myntra & Meesho sellers, review services, eCommerce growth"
-        />
-      </Helmet>
+<meta
+name="description"
+content="MyRise Agency helps brands grow on Amazon, Flipkart, Myntra and Meesho through marketplace review growth, listing optimization and ecommerce visibility services."
+/>
+
+<meta
+name="keywords"
+content="Flipkart Review Growth, Amazon Review Growth, Myntra Seller Growth, Meesho Seller Growth, Marketplace Growth Agency, Ecommerce Growth Services, Product Review Services"
+/>
+
+<meta name="robots" content="index, follow"/>
+
+<link
+rel="canonical"
+href="https://myriseagency.in"
+/>
+
+<meta property="og:type" content="website"/>
+
+<meta
+property="og:title"
+content="Marketplace Review Growth Services | MyRise Agency"
+/>
+
+<meta
+property="og:description"
+content="Helping ecommerce brands increase reviews, ratings and marketplace visibility."
+/>
+
+<meta
+property="og:url"
+content="https://myriseagency.in"
+/>
+
+<meta
+property="og:image"
+content="https://myriseagency.in/og-image.jpg"
+/>
+
+<meta
+property="og:site_name"
+content="MyRise Agency"
+/>
+
+<meta
+name="twitter:card"
+content="summary_large_image"
+/>
+
+<meta
+name="twitter:title"
+content="Marketplace Review Growth Services | MyRise Agency"
+/>
+
+<meta
+name="twitter:description"
+content="Helping brands increase ratings and reviews across marketplaces."
+/>
+
+<meta
+name="twitter:image"
+content="https://myriseagency.in/og-image.jpg"
+/>
+
+</Helmet>
 
       <Navbar active={active} setActive={setActive} />
       <Hero />
