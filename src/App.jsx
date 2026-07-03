@@ -71,7 +71,7 @@ content="https://myriseagency.in"
 
 <meta
 property="og:image"
-content="https://myriseagency.in/og-image.jpg"
+content="https://myriseagency.in/og-image.png"
 />
 
 <meta
@@ -96,7 +96,7 @@ content="Helping brands increase ratings and reviews across marketplaces."
 
 <meta
 name="twitter:image"
-content="https://myriseagency.in/og-image.jpg"
+content="https://myriseagency.in/og-image.png"
 />
 
 </Helmet>
