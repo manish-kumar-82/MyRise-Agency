@@ -25,28 +25,28 @@ export const CONTACT = {
 export const SERVICES = [
   {
     icon: "★",
-    title: "Review Growth",
-    desc: "We connect your products with real buyers who share authentic, detailed reviews — improving your star rating and buyer confidence organically.",
+    title: "Flipkart & Amazon Review Growth",
+    desc: "As a dedicated Flipkart reviews growth agency and Amazon review growth partner, we connect your products with real buyers who share authentic, detailed reviews — improving your star rating and buyer confidence organically.",
   },
   {
     icon: "↑",
-    title: "Rating Improvement",
-    desc: "Strategically improve your product ratings from 3★ to 4★+ through genuine purchase and review cycles — all within platform guidelines.",
+    title: "Myntra & Meesho Rating Improvement",
+    desc: "Strategically improve your Myntra and Meesho seller ratings from 3★ to 4★+ through genuine purchase and review cycles — all within platform guidelines.",
   },
   {
     icon: "◈",
-    title: "Listing Visibility",
+    title: "Marketplace Listing Visibility",
     desc: "Higher reviews and ratings push your products up in Amazon, Flipkart, Myntra & Meesho search results — driving more organic traffic and conversions.",
   },
   {
     icon: "◎",
-    title: "Brand Credibility",
-    desc: "Build lasting trust with potential buyers through a strong review base that signals quality and reliability for your brand.",
+    title: "Brand Credibility & Trust",
+    desc: "Build lasting trust with potential buyers through a strong review base that signals quality and reliability for your brand across every marketplace.",
   },
   {
     icon: "🎬",
     title: "CGI & Content Creation",
-    desc: "Beyond reviews, we also create high-quality CGI reels and visual content that elevate your brand's presence.",
+    desc: "Beyond reviews, we also create high-quality CGI reels and visual content that elevate your brand's presence on Amazon, Flipkart, Myntra & Meesho.",
   },
 ];
 
